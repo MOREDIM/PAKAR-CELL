@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produk - PAKAR CELL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Produk & Layanan</h1>
+    <p>Daftar harga dan layanan lengkap kami</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="produk.html">Produk</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <section id="produk">
+    <h2>Produk & Layanan PAKAR CELL</h2>
+  
+    <div class="produk-item" onclick="toggleDetail('detail-pulsa')">
+      <h3>Pulsa Elektrik (Klik Harga)</h3>
+      <div id="detail-pulsa" class="detail-produk">
+        <table>
+          <tr><th>Nominal</th><th>Harga</th></tr>
+          <tr><td>Pulsa 5.000</td><td>Rp7.000 (kapanpun bisa berubah/update) </td></tr>
+          <tr><td>Pulsa 10.000</td><td>Rp12.000 (kapanpun bisa berubah/update) </td></tr>
+          <tr><td>Pulsa 20.000</td><td>Rp22.000 (kapanpun bisa berubah/update) </td></tr>
+          <tr><td>Pulsa 50.000</td><td>Rp51.500 (kapanpun bisa berubah/update)</td></tr>
+          <tr><td>Pulsa 100.000</td><td>Rp101.000 (kapanpun bisa berubah/update)</td></tr>
+        </table>
+        <p><small>*Tersedia: Telkomsel, Indosat, XL, Axis, Tri, Smartfren</small></p>
+      </div>
+    </div>
+  
+    <div class="produk-item" onclick="toggleDetail('detail-voucher')">
+      <h3>Voucher Internet (Klik Harga)</h3>
+      <div id="detail-voucher" class="detail-produk">
+        <div class="sub-produk">
+          <p><strong>AXIS:</strong> 2GB (3hr) - Rp10.000 | 5GB (5hr) - Rp18.000</p>
+          <p><strong>TRI:</strong> Happy 2GB - Rp12.000 | 9GB - Rp30.000</p>
+          <p><strong>TELKOMSEL:</strong> OMG 5GB - Rp38.000</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="produk-item" onclick="toggleDetail('detail-topup')">
+      <h3>Top Up E-Wallet & Game (Klik Info)</h3>
+      <div id="detail-topup" class="detail-produk">
+        <table>
+          <tr><th>Layanan</th><th>Biaya Admin</th></tr>
+          <tr><td>DANA / OVO / GoPay / ShopeePay / LinkAja /</td><td>+ Rp2.000-Rp15.000 (sesuai jumlah isi saldo) </td></tr>
+          <tr><td>BCA / Mandiri / BRI / BNI / BTN / Bank digital lainnya </td><td>+ Rp2.000-Rp15.000 (sesuai jumlah isi saldo)</td></tr>
+          <tr><td>Diamond Mobile Legends / Free Fire / PUBG / dan game lainnya </td><td>Cek via Admin</td></tr>
+        </table>
+      </div>
+    </div>
+  
+    <div class="produk-item" onclick="toggleDetail('detail-token')">
+      <h3>Token Listrik PLN (Klik Harga)</h3>
+      <div id="detail-token" class="detail-produk">
+        <table>
+          <tr><th>Nominal</th><th>Harga</th></tr>
+          <tr><td>PLN 20.000</td><td>Rp22.500</td></tr>
+          <tr><td>PLN 50.000</td><td>Rp52.500</td></tr>
+          <tr><td>PLN 100.000</td><td>Rp102.500</td></tr>
+        </table>
+      </div>
+    </div>
+  
+    <div class="produk-item" onclick="toggleDetail('detail-aksesoris')">
+      <h3>Aksesoris HP (Klik Koleksi)</h3>
+      <div id="detail-aksesoris" class="detail-produk">
+        <div class="aksesoris-grid">
+          <div class="item-aksesoris">
+            <img src="charger.jpg" alt="Charger">
+            <p><strong>Charger HP</strong></p>
+            <p class="harga-produk">Rp85.000</p>
+          </div>
+          <div class="item-aksesoris">
+            <img src="case.jpg" alt="Case">
+            <p><strong>Case HP</strong></p>
+            <p class="harga-produk">Rp25.000</p>
+          </div>
+          <div class="item-aksesoris">
+            <img src="tg.jpg" alt="TG">
+            <p><strong>Tempered Glass</strong></p>
+            <p class="harga-produk">Rp15.000</p>
+          </div>
+          <div class="item-aksesoris">
+            <img src="headset.jpg" alt="Earphone">
+            <p><strong>Earphone</strong></p>
+            <p class="harga-produk">Rp45.000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PAKAR CELL. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
