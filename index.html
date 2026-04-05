@@ -1,121 +1,10 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PAKAR CELL - Penjualan Online</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
-      background: #f0f4f8;
-      color: #333;
-    }
-
-    header {
-      background: #007bff;
-      color: #fff;
-      padding: 50px 20px;
-      text-align: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-
-    header h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-
-    nav {
-      background: #0056b3;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-
-    nav ul {
-      display: flex;
-      list-style: none;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    nav ul li {
-      margin: 0;
-    }
-
-    nav ul li a {
-      display: block;
-      padding: 15px 25px;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-
-    nav ul li a:hover {
-      background: #003f7f;
-    }
-
-    section {
-      padding: 50px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    section h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-      color: #007bff;
-    }
-
-    .produk-item {
-      background: #fff;
-      border-radius: 12px;
-      padding: 25px;
-      margin-bottom: 20px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
-    }
-
-    .produk-item:hover {
-      transform: scale(1.02);
-    }
-
-    .kontak-info p {
-      margin-bottom: 10px;
-      font-size: 1.1em;
-    }
-
-    footer {
-      background: #ddd;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      margin-top: 40px;
-    }
-
-    @media (max-width: 768px) {
-      nav ul {
-        flex-direction: column;
-      }
-
-      nav ul li a {
-        text-align: center;
-      }
-
-      header h1 {
-        font-size: 2em;
-      }
-
-      section h2 {
-        font-size: 1.6em;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAKAR CELL - Beranda</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -126,53 +15,54 @@
 
   <nav>
     <ul>
-      <li><a href="#home">Beranda</a></li>
-      <li><a href="#produk">Produk</a></li>
-      <li><a href="#kontak">Kontak</a></li>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="produk.html">Produk</a></li>
+      <li><a href="kontak.html">Kontak</a></li>
     </ul>
   </nav>
 
-  <!-- Beranda -->
   <section id="home">
-    <h2>Selamat Datang di Website PAKAR CELL</h2>
-    <p>
-      PAKAR CELL adalah UMKM yang bergerak dalam bidang penjualan pulsa, token listrik, dan aksesoris handphone. Berlokasi di Jakarta Utara, kami berkomitmen menyediakan layanan digital yang cepat, mudah, dan terpercaya. Melalui website ini, pelanggan dapat mengetahui produk dan layanan kami secara lebih mudah dan modern.
-    </p>
-  </section>
-
-  <!-- Produk -->
-  <section id="produk">
-    <h2>Produk & Layanan</h2>
-
-    <div class="produk-item">
-      <h3>Pulsa Elektrik All Operator</h3>
-      <p>Tersedia nominal mulai dari Rp5.000 hingga Rp100.000 untuk semua operator seperti Telkomsel, XL, Indosat, dan lainnya.</p>
-    </div>
-
-    <div class="produk-item">
-      <h3>Token Listrik PLN</h3>
-      <p>Pengisian token listrik prabayar dengan pilihan nominal sesuai kebutuhan. Layanan tersedia 24 jam.</p>
-    </div>
-
-    <div class="produk-item">
-      <h3>Paket Data Internet</h3>
-      <p>Menawarkan paket data internet harian, mingguan, dan bulanan dari berbagai operator dengan harga bersaing.</p>
-    </div>
-
-    <div class="produk-item">
-      <h3>Aksesoris HP</h3>
-      <p>Kami menyediakan charger, kabel data, casing, headset, dan aksesoris lainnya dengan kualitas terbaik.</p>
+    <div class="home-container">
+      <div class="home-text">
+        <h2>Selamat Datang di Website PAKAR CELL</h2>
+        <p>
+          Cari pulsa, token listrik, atau aksesoris HP tanpa ribet? <strong>PAKAR CELL</strong> solusinya! 
+          Kami adalah UMKM kebanggaan Jakarta Utara yang siap memberikan layanan digital tercepat dan termudah. 
+          Jujur dalam pelayanan, amanah dalam transaksi.
+        </p>
+      </div>
     </div>
   </section>
 
-  <!-- Kontak -->
-  <section id="kontak">
-    <h2>Hubungi Kami</h2>
-    <div class="kontak-info">
-      <p><strong>Alamat:</strong> Jl. Ampera 7 No.1, Pademangan Barat, Jakarta Utara, 14420</p>
-      <p><strong>Telepon:</strong> 0812-9266-649 dan 0831-6396-8899</p>
-      <p><strong>Email:</strong> pakarcell@gmail.com</p>
-      <p><strong>Jam Operasional:</strong> Senin - Minggu, 08.00 - 02.00 WIB</p>
+  <section id="testimoni">
+    <div class="container">
+      <h2 class="section-title">Apa Kata Pelanggan Kami?</h2>
+      
+      <div class="testi-grid">
+        <div class="testi-card">
+          <p class="testi-text">"Gila, isi pulsa di Pakar Cell beneran kilat! Gak sampai semenit langsung masuk. Adminnya juga ramah banget, recommended buat langganan!"</p>
+          <div class="testi-user">
+            <strong>- Eka Febriani</strong>
+            <span>Pademangan, Jakarta Utara</span>
+          </div>
+        </div>
+  
+        <div class="testi-card">
+          <p class="testi-text">"Top up DANA dan ShopeePay paling murah biaya adminnya cuma di sini. Prosesnya amanah dan gak pernah ada kendala. Mantap parah!"</p>
+          <div class="testi-user">
+            <strong>- Anis Baswedan</strong>
+            <span>Tanjung Priok, Jakarta Utara</span>
+          </div>
+        </div>
+  
+        <div class="testi-card">
+          <p class="testi-text">"Harga aksesoris HP-nya bersahabat banget buat kantong. Barangnya bagus-bagus dan kualitasnya oke punya. Puas banget belanja di Pakar Cell!"</p>
+          <div class="testi-user">
+            <strong>- Suhamah</strong>
+            <span>Pluit, Jakarta Utara</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
