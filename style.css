@@ -140,3 +140,17 @@ footer { background: #333; color: white; text-align: center; padding: 20px; marg
     padding: 50px 15px;
   }
 }
+
+/* Styling tambahan untuk judul kategori di dalam detail produk */
+#detail-telkomsel h4 {
+    color: #007bff;
+    margin-bottom: 10px;
+    border-left: 4px solid #ffc107;
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+
+#detail-telkomsel table {
+    margin-bottom: 15px;
+}
+
